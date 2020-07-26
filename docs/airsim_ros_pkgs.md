@@ -24,8 +24,8 @@ Verify version by `gcc --version`
 ```
 git clone https://github.com/Microsoft/AirSim.git;
 cd AirSim;
-./setup.sh;
-./build.sh;
+./setup.sh --gcc;
+./build.sh --gcc;
 ```
 - Build ROS package
 
